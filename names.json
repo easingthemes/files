@@ -1,7 +1,16 @@
 {
- "names": [
-  {"firstname": "1", "lastname": "CreateNewDoc"},
-  {"firstname": "Open", "lastname": "OpenDoc"},
-  {"firstname": "Close", "lastname": "CloseDoc"}
- ]
+    "names": [
+        {
+            "firstname": "1",
+            "lastname": "CreateNewDoc"
+        },
+        {
+            "firstname": "Open",
+            "lastname": "OpenDoc"
+        },
+        {
+            "firstname": "Close",
+            "lastname": "CloseDoc"
+        }
+    ]
 }
