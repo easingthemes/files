@@ -1,1 +1,19 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    xmlhttp.open("GET","names.json",true);
+    var jsondata=JSON.parse(xmlhttp.responseText);
+    var output='<ul>';
+    for (var i=0; i<jsondata.length; i++) {
+     output='<li>' + jsondata[i].firstname + ' ' + jsondata[i].lastname + '</li>';
+    }
+    output+='</ul>'
+    document.getElementById("myDiv").innerHTML=output;   
+</script>
+<div id="myDiv"></div>
+</body>
+</html>
